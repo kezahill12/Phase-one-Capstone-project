@@ -1,4 +1,4 @@
-package academicmanagement;
+package academicmanagement.service;
 
 import java.util.ArrayList;
 import java.util.HashMap;
