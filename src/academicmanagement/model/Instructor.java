@@ -1,4 +1,4 @@
-package academicmanagement;
+package academicmanagement.model;
 
 public class Instructor extends Person {
     private String employeeID;
