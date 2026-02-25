@@ -1,0 +1,3 @@
+UndergraduateStudent|0001|keza|0023|0.0
+UndergraduateStudent|S001|John Doe|U001|0.0
+GraduateStudent|S002|Jane Smith|G001|0.0
