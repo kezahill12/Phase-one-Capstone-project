@@ -1,4 +1,4 @@
-package academicmanagement;
+package academicmanagement.model;
 
 public class UndergraduateStudent extends Student {
 
