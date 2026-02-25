@@ -1,4 +1,4 @@
-package academicmanagement;
+package academicmanagement.model;
 
 import java.util.ArrayList;
 import java.util.List;
