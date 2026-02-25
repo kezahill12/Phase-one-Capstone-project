@@ -1,5 +1,11 @@
 package academicmanagement.service;
 
+import academicmanagement.Exception.CourseFullException;
+import academicmanagement.Exception.StudentAlreadyEnrolledException;
+import academicmanagement.model.Course;
+import academicmanagement.model.Instructor;
+import academicmanagement.model.Student;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
