@@ -1,4 +1,4 @@
-package academicmanagement;
+package academicmanagement.model;
 
 import java.util.Map;
 
