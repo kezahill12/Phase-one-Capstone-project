@@ -86,9 +86,6 @@ public class UniversityManager {
     public double getAvgGPA(String department) {
         List<Student> deptStudents = new ArrayList<>();
         for (Student s : students.values()) {
-            if (s.getStudentID().equals(department)) {
-                deptStudents.add(s);
-            }
         }
 
         if (deptStudents.isEmpty()) return 0;

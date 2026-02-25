@@ -4,7 +4,7 @@ public class UndergraduateStudent extends Student {
 
     @Override
     public String getPersonType() {
-        return "";
+        return "undergraduate";
     }
 
     public UndergraduateStudent(String id, String name, String studentID) {

@@ -76,7 +76,7 @@ public class Main {
         }
 
         manager.registerStudent(s);
-        System.out.println("Student registered!");
+        System.out.println( name +" is registered!");
         System.out.println("Tuition: $" + s.calculateTuition());
     }
 
