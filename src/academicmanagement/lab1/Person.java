@@ -1,4 +1,4 @@
-package academicmanagement;
+package academicmanagement.model;
 
 public abstract class Person {
     private String id;

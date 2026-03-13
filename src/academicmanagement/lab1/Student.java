@@ -1,4 +1,4 @@
-package academicmanagement;
+package academicmanagement.model;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,7 +6,7 @@ import java.util.Map;
 public abstract class Student extends Person {
     private String studentID;
     private double gpa;
-    private Map<String, Double> grades;
+    public Map<String, Double> grades;
 
 
     public Student(String id, String name, String studentID) {

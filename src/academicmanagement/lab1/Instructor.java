@@ -1,9 +1,7 @@
-package academicmanagement;
+package academicmanagement.model;
 
 public class Instructor extends Person {
     private String employeeID;
-
-    public Instructor() {}
 
     public Instructor(String id, String name, String employeeID) {
         super(id, name);

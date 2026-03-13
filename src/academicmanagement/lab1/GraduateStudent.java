@@ -1,4 +1,4 @@
-package academicmanagement;
+package academicmanagement.model;
 
 import java.util.Map;
 
@@ -23,12 +23,12 @@ public class GraduateStudent extends Student {
         double tuition = (credits * 800) + 2000;
 
         if (hasFunding) {
-            tuition = tuition * 0.75;
+            tuition= tuition * 0.75;
         }
         return tuition;
     }
-
-    private Map<Object, Object> getGrades() {
-        return null;
+    public Map<String, Double> getGrades() {
+        return grades;
     }
+
 }

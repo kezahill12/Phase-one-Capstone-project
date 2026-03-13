@@ -1,4 +1,10 @@
-package academicmanagement;
+package academicmanagement.service;
+
+import academicmanagement.Exception.CourseFullException;
+import academicmanagement.Exception.StudentAlreadyEnrolledException;
+import academicmanagement.model.Course;
+import academicmanagement.model.Instructor;
+import academicmanagement.model.Student;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -80,9 +86,6 @@ public class UniversityManager {
     public double getAvgGPA(String department) {
         List<Student> deptStudents = new ArrayList<>();
         for (Student s : students.values()) {
-            if (s.getStudentID().equals(department)) {
-                deptStudents.add(s);
-            }
         }
 
         if (deptStudents.isEmpty()) return 0;

@@ -1,4 +1,9 @@
-package academicmanagement;
+package academicmanagement.service;
+
+import academicmanagement.model.Course;
+import academicmanagement.model.GraduateStudent;
+import academicmanagement.model.Student;
+import academicmanagement.model.UndergraduateStudent;
 
 import java.io.*;
 import java.util.*;
@@ -24,7 +29,7 @@ public class FileManager {
         try {
             Scanner scanner = new Scanner(new File("students.txt"));
             while (scanner.hasNextLine()) {
-                String[] parts = scanner.nextLine().split(" ");
+                String[] parts = scanner.nextLine().split(" / ");
                 String type = parts[0];
                 String id = parts[1];
                 String name = parts[2];

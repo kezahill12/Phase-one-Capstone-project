@@ -1,4 +1,4 @@
-package academicmanagement;
+package academicmanagement.Exception;
 
 public class CourseFullException extends Exception {
     public CourseFullException() {
